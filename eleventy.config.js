@@ -181,6 +181,7 @@ module.exports = function(eleventyConfig) {
 	// Прямое копирование файлов и папок: ------------
 	//------------------------------------------------
 
+	eleventyConfig.addPassthroughCopy('src/admin'); // DecapCMS
 	eleventyConfig.addPassthroughCopy('src/img');
 	//eleventyConfig.addPassthroughCopy('src/img/**/*.{svg,avif,webp,jxl,jpg,jpeg,png,tif,tiff,bmp,gif}');
 	eleventyConfig.addPassthroughCopy('src/fls');

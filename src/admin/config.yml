@@ -3,7 +3,8 @@ backend:
   repo: erofteev/mitosite-decap
   branch: main
 
-#auth_endpoint:
+locale: 'ru'
+#logo_url:
 
 #publish_mode: editorial_workflow
 
@@ -11,21 +12,21 @@ media_folder: "site/img/uploads"
 public_folder: "/img/uploads"
 collections:
   - name: "blog"
-    label: "Blog"
+    label: "Блог"
     folder: "src/blog"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      #- {label: "Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Описание", name: "description", widget: "string"}
+      - {label: "Автор", name: "author", widget: "string"}
+      - {label: "Дата", name: "date", widget: "datetime"}
+      #- {label: "Изображение", name: "image", widget: "image"}
+      - {label: "Содержание", name: "body", widget: "markdown"}
   #- name: "programs"
-  #  label: "Program"
+  #  label: "Программы"
   #  folder: "src/programs"
   #  create: true
   #  fields:
-  #    - {label: "Title", name: "title", widget: "string"}
-  #    - {label: "Body", name: "body", widget: "markdown"}
+  #    - {label: "Заголовок", name: "title", widget: "string"}
+  #    - {label: "Содержание", name: "body", widget: "markdown"}

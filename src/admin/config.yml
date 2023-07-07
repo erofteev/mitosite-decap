@@ -1,7 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
   repo: erofteev/mitosite-decap
-  ranch: master
+  ranch: main
+
+#auth_endpoint:
+
+#publish_mode: editorial_workflow
+
 media_folder: "site/img/uploads"
 public_folder: "/img/uploads"
 collections:

@@ -3,10 +3,14 @@ backend:
   repo: erofteev/mitosite-decap
   branch: main
 
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 locale: 'ru'
-#logo_url: https://raw.githubusercontent.com/erofteev/mitosite-decap/8fbe5e8d16a012b02f0e0c18cbc0cc3e13c68e92/src/img/mitologo.svg
+#logo_url:
 #display_url: https://your-site.com
+
+slug:
+  clean_accents: true
+  sanitize_replacement: "_"
 
 media_folder: "site/img/uploads"
 public_folder: "/img/uploads"

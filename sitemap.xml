@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://mitorun.studio/blog/post-1/</loc>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://mitorun.studio/blog/post-2/</loc>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://mitorun.studio/blog/тест-decapcms/</loc>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://mitorun.studio/blog/укнекгнке/</loc>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://mitorun.studio/blog/</loc>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://mitorun.studio/</loc>
+		<priority>1</priority>
+	</url>
+</urlset>

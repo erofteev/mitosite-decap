@@ -1,6 +1,6 @@
 const htmlMinifierTerser = require('html-minifier-terser');
 const lightningCSS = require('@11tyrocks/eleventy-plugin-lightningcss');
-// const esbuild = require('esbuild');
+const esbuild = require('esbuild');
 const pluginBundle = require('@11ty/eleventy-plugin-bundle');
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it')({ html: true });
